@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer"
 import { useAnimation } from "framer-motion"
 
 //Styled Components
-import { Container, Flex } from "../styles/globalStyles"
+import { Container, Flex } from "../styles/GlobalStyles"
 import { FooterNav, FooterContent, FooterSocial } from "../styles/footerStyles"
 
 //Icons
