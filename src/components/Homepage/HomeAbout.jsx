@@ -11,7 +11,7 @@ import {
   AccordionHeader,
   AccordionContent,
   AccordionIcon,
-} from "../../styles/homeStyles"
+} from "../../styles/HomeStyles"
 
 const accordionIds = [
   {
