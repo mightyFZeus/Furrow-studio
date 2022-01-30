@@ -2,7 +2,13 @@ import React, {  useReducer, createContext, useContext } from "react"
 
 // define the context
 
-const GlobalStateContext = createContext()
+const defaultState = {
+  currentTheme: "",
+  cursorType: false,
+  cursorStyles:[]
+}
+
+const GlobalStateContext = createContext(defaultState)
 const GlobalDispatchContext = createContext()
 
 //reducer
@@ -47,7 +53,7 @@ export const GlobalProvider = ({ children }) => {
 }
 
 
-//custome hoks to use dispatch and state
+//custom hooks to use dispatch and state
 
 
 export const useGlobalStateContext = () => useContext(GlobalStateContext)

@@ -66,9 +66,9 @@ const Layout = ({ children }) => {
   }
 
   
-
+const dispatch = useGlobalDispatchContext()
   const { currentTheme, cursorStyles } = useGlobalStateContext()
-  const dispatch = useGlobalDispatchContext()
+  
 
   
 const onCursor = cursorType => {
