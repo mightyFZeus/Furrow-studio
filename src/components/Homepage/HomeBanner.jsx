@@ -59,7 +59,7 @@ const HomeBanner = ({onCursor}) => {
           drawingCtx.moveTo(lastX, lastY)
           drawingCtx.lineTo(currentX, currentY)
           drawingCtx.closePath()
-          drawingCtx.lineWidth = 20
+          drawingCtx.lineWidth = 80
           drawingCtx.stroke()
           lastX = currentX
           lastY = currentY
