@@ -99,8 +99,8 @@ const HomeBanner = ({onCursor}) => {
     <Banner>
       <Video>
         <video
-          height="100%"
-          width="100%"
+          height={size.height}
+          width={size.width}
           loop
           autoPlay
           muted

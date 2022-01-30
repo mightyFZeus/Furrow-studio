@@ -104,7 +104,7 @@ const Navigation = ({ toggleMenu, setToggleMenu, onCursor }) => {
                         })
                       }
                     >
-                      <Link to={`/projects/${route.path}`}>
+                      <Link to='/'>
                         <motion.div
                           initial={{ x: -108 }}
                           whileHover={{
